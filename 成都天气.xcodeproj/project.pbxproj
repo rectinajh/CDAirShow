@@ -14,6 +14,22 @@
 		24B88B611B400E2600425507 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B88B601B400E2600425507 /* Images.xcassets */; };
 		24B88B641B400E2600425507 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24B88B621B400E2600425507 /* LaunchScreen.xib */; };
 		24B88B701B400E2700425507 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B88B6F1B400E2700425507 /* ____Tests.m */; };
+		24B88B7E1B4013A900425507 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B88B7D1B4013A900425507 /* HomeViewController.m */; };
+		24B88B811B4013CE00425507 /* AirMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B88B801B4013CE00425507 /* AirMapViewController.m */; };
+		24B88B841B40140400425507 /* ScenicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B88B831B40140400425507 /* ScenicViewController.m */; };
+		24B88B871B40142000425507 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B88B861B40142000425507 /* SettingViewController.m */; };
+		24B88BA21B4032B800425507 /* icon_menu_hp_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88B9E1B4032B800425507 /* icon_menu_hp_press.png */; };
+		24B88BA31B4032B800425507 /* icon_menu_ihave_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88B9F1B4032B800425507 /* icon_menu_ihave_press.png */; };
+		24B88BA41B4032B800425507 /* icon_menu_profile_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BA01B4032B800425507 /* icon_menu_profile_press.png */; };
+		24B88BA51B4032B800425507 /* icon_menu_x_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BA11B4032B800425507 /* icon_menu_x_press.png */; };
+		24B88BA71B40347D00425507 /* cloudy9_meitu_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BA61B40347D00425507 /* cloudy9_meitu_6.png */; };
+		24B88BA91B4034E600425507 /* cloudy7_meitu_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BA81B4034E600425507 /* cloudy7_meitu_7.png */; };
+		24B88BAB1B40354600425507 /* font-367_meitu_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BAA1B40354600425507 /* font-367_meitu_8.png */; };
+		24B88BAF1B40361100425507 /* gear (1)_meitu_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BAE1B40361100425507 /* gear (1)_meitu_9.png */; };
+		24B88BB11B40367300425507 /* settings (2)_meitu_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BB01B40367300425507 /* settings (2)_meitu_1.png */; };
+		24B88BB31B4037A900425507 /* line_meitu_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BB21B4037A900425507 /* line_meitu_2.jpg */; };
+		24B88BB51B40380000425507 /* line_chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BB41B40380000425507 /* line_chart.png */; };
+		24B88BB71B40384D00425507 /* line_meitu_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BB61B40384D00425507 /* line_meitu_4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +56,26 @@
 		24B88B691B400E2700425507 /* 成都天气Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "成都天气Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B88B6E1B400E2700425507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24B88B6F1B400E2700425507 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		24B88B7C1B4013A900425507 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		24B88B7D1B4013A900425507 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		24B88B7F1B4013CE00425507 /* AirMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirMapViewController.h; sourceTree = "<group>"; };
+		24B88B801B4013CE00425507 /* AirMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirMapViewController.m; sourceTree = "<group>"; };
+		24B88B821B40140400425507 /* ScenicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicViewController.h; sourceTree = "<group>"; };
+		24B88B831B40140400425507 /* ScenicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicViewController.m; sourceTree = "<group>"; };
+		24B88B851B40142000425507 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		24B88B861B40142000425507 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		24B88B9E1B4032B800425507 /* icon_menu_hp_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_menu_hp_press.png; path = "../../UI_TEST/成都生活展示（素材）/tabBar图标/icon_menu_hp_press.png"; sourceTree = "<group>"; };
+		24B88B9F1B4032B800425507 /* icon_menu_ihave_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_menu_ihave_press.png; path = "../../UI_TEST/成都生活展示（素材）/tabBar图标/icon_menu_ihave_press.png"; sourceTree = "<group>"; };
+		24B88BA01B4032B800425507 /* icon_menu_profile_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_menu_profile_press.png; path = "../../UI_TEST/成都生活展示（素材）/tabBar图标/icon_menu_profile_press.png"; sourceTree = "<group>"; };
+		24B88BA11B4032B800425507 /* icon_menu_x_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_menu_x_press.png; path = "../../UI_TEST/成都生活展示（素材）/tabBar图标/icon_menu_x_press.png"; sourceTree = "<group>"; };
+		24B88BA61B40347D00425507 /* cloudy9_meitu_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloudy9_meitu_6.png; path = ../../cloudy9_meitu_6.png; sourceTree = "<group>"; };
+		24B88BA81B4034E600425507 /* cloudy7_meitu_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloudy7_meitu_7.png; path = ../../cloudy7_meitu_7.png; sourceTree = "<group>"; };
+		24B88BAA1B40354600425507 /* font-367_meitu_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "font-367_meitu_8.png"; path = "../../font-367_meitu_8.png"; sourceTree = "<group>"; };
+		24B88BAE1B40361100425507 /* gear (1)_meitu_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gear (1)_meitu_9.png"; path = "../../gear (1)_meitu_9.png"; sourceTree = "<group>"; };
+		24B88BB01B40367300425507 /* settings (2)_meitu_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings (2)_meitu_1.png"; path = "../../settings (2)_meitu_1.png"; sourceTree = "<group>"; };
+		24B88BB21B4037A900425507 /* line_meitu_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = line_meitu_2.jpg; path = ../../line_meitu_2.jpg; sourceTree = "<group>"; };
+		24B88BB41B40380000425507 /* line_chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = line_chart.png; path = ../../line_chart.png; sourceTree = "<group>"; };
+		24B88BB61B40384D00425507 /* line_meitu_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = line_meitu_4.png; path = ../../line_meitu_4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +117,21 @@
 		24B88B521B400E2600425507 /* 成都天气 */ = {
 			isa = PBXGroup;
 			children = (
+				24B88B931B4029BB00425507 /* ICON */,
 				24B88B571B400E2600425507 /* AppDelegate.h */,
 				24B88B581B400E2600425507 /* AppDelegate.m */,
 				24B88B5A1B400E2600425507 /* ViewController.h */,
 				24B88B5B1B400E2600425507 /* ViewController.m */,
 				24B88B5D1B400E2600425507 /* Main.storyboard */,
 				24B88B601B400E2600425507 /* Images.xcassets */,
+				24B88B7C1B4013A900425507 /* HomeViewController.h */,
+				24B88B7D1B4013A900425507 /* HomeViewController.m */,
+				24B88B7F1B4013CE00425507 /* AirMapViewController.h */,
+				24B88B801B4013CE00425507 /* AirMapViewController.m */,
+				24B88B821B40140400425507 /* ScenicViewController.h */,
+				24B88B831B40140400425507 /* ScenicViewController.m */,
+				24B88B851B40142000425507 /* SettingViewController.h */,
+				24B88B861B40142000425507 /* SettingViewController.m */,
 				24B88B621B400E2600425507 /* LaunchScreen.xib */,
 				24B88B531B400E2600425507 /* Supporting Files */,
 			);
@@ -117,6 +162,25 @@
 				24B88B6E1B400E2700425507 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24B88B931B4029BB00425507 /* ICON */ = {
+			isa = PBXGroup;
+			children = (
+				24B88BA61B40347D00425507 /* cloudy9_meitu_6.png */,
+				24B88BB01B40367300425507 /* settings (2)_meitu_1.png */,
+				24B88BB41B40380000425507 /* line_chart.png */,
+				24B88BB61B40384D00425507 /* line_meitu_4.png */,
+				24B88BAE1B40361100425507 /* gear (1)_meitu_9.png */,
+				24B88BA81B4034E600425507 /* cloudy7_meitu_7.png */,
+				24B88BB21B4037A900425507 /* line_meitu_2.jpg */,
+				24B88BAA1B40354600425507 /* font-367_meitu_8.png */,
+				24B88B9E1B4032B800425507 /* icon_menu_hp_press.png */,
+				24B88B9F1B4032B800425507 /* icon_menu_ihave_press.png */,
+				24B88BA01B4032B800425507 /* icon_menu_profile_press.png */,
+				24B88BA11B4032B800425507 /* icon_menu_x_press.png */,
+			);
+			name = ICON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +263,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24B88BA51B4032B800425507 /* icon_menu_x_press.png in Resources */,
+				24B88BA31B4032B800425507 /* icon_menu_ihave_press.png in Resources */,
+				24B88BA41B4032B800425507 /* icon_menu_profile_press.png in Resources */,
+				24B88BAB1B40354600425507 /* font-367_meitu_8.png in Resources */,
 				24B88B5F1B400E2600425507 /* Main.storyboard in Resources */,
 				24B88B641B400E2600425507 /* LaunchScreen.xib in Resources */,
+				24B88BB71B40384D00425507 /* line_meitu_4.png in Resources */,
+				24B88BAF1B40361100425507 /* gear (1)_meitu_9.png in Resources */,
 				24B88B611B400E2600425507 /* Images.xcassets in Resources */,
+				24B88BB51B40380000425507 /* line_chart.png in Resources */,
+				24B88BA21B4032B800425507 /* icon_menu_hp_press.png in Resources */,
+				24B88BA71B40347D00425507 /* cloudy9_meitu_6.png in Resources */,
+				24B88BB11B40367300425507 /* settings (2)_meitu_1.png in Resources */,
+				24B88BB31B4037A900425507 /* line_meitu_2.jpg in Resources */,
+				24B88BA91B4034E600425507 /* cloudy7_meitu_7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +298,10 @@
 				24B88B5C1B400E2600425507 /* ViewController.m in Sources */,
 				24B88B591B400E2600425507 /* AppDelegate.m in Sources */,
 				24B88B561B400E2600425507 /* main.m in Sources */,
+				24B88B871B40142000425507 /* SettingViewController.m in Sources */,
+				24B88B811B4013CE00425507 /* AirMapViewController.m in Sources */,
+				24B88B7E1B4013A900425507 /* HomeViewController.m in Sources */,
+				24B88B841B40140400425507 /* ScenicViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

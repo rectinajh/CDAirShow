@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "HomeViewController.h"
+#import "AirMapViewController.h"
+#import "ScenicViewController.h"
+#import "SettingViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +22,66 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    
+    
+    HomeViewController *home = [[HomeViewController alloc]init];
+    AirMapViewController *air = [[AirMapViewController alloc]init];
+    
+    ScenicViewController *scenic = [[ScenicViewController alloc]init];
+    SettingViewController *setting = [[SettingViewController alloc]init];
+    
+    UINavigationController *naviFirst = [[UINavigationController alloc]initWithRootViewController:home];
+    naviFirst.navigationBar.barTintColor = [UIColor colorWithRed:0.302 green:0.628 blue:0.212 alpha:1.000];
+    
+    UINavigationController *naviSecond =[[UINavigationController alloc]initWithRootViewController:air];
+    naviSecond.navigationBar.barTintColor = [UIColor colorWithRed:0.302 green:0.628 blue:0.212 alpha:1.000];
+    
+    UINavigationController *naviThird =[[UINavigationController alloc]initWithRootViewController:scenic];
+    naviThird.navigationBar.barTintColor = [UIColor colorWithRed:0.302 green:0.628 blue:0.212 alpha:1.000];
+    
+    UINavigationController *naviFouth =[[UINavigationController alloc]initWithRootViewController:setting];
+    naviFouth.navigationBar.barTintColor = [UIColor colorWithRed:0.302 green:0.628 blue:0.212 alpha:1.000];
+    
+    //设置子控制器集合
+    UITabBarController *tabBarController = [[UITabBarController alloc]init];
+    tabBarController.viewControllers =@[naviFirst,naviSecond,naviThird,naviFouth];
+    
+    
+    //ViewController *view = [[ViewController alloc]init];
+    self.window.rootViewController = tabBarController;
+    
+    
+    //添加图片
+    UIImage *firstImage = [UIImage imageNamed:@"cloudy7_meitu_7.png"];
+    UIImage *airImage = [UIImage imageNamed:@"font-367_meitu_8.png"];
+    UIImage *scenicImage   = [UIImage imageNamed:@"line_meitu_4.png"];
+    UIImage *settingImage = [UIImage imageNamed:@"settings (2)_meitu_1.png"];
+    
+    //配置文本颜色
+    tabBarController.tabBar.tintColor = [UIColor whiteColor];
+    
+    //标签栏颜色
+    tabBarController.tabBar.barTintColor = [UIColor colorWithRed:0.302 green:0.628 blue:0.212 alpha:0.310];
+    
+    //创建标签栏按钮
+    UITabBarItem *firstItem  = [[UITabBarItem alloc] initWithTitle:@"首页" image:firstImage tag:10];
+    UITabBarItem *recommendItem  = [[UITabBarItem alloc] initWithTitle:@"空气" image:airImage tag:20];
+    
+    UITabBarItem *scenicItem  = [[UITabBarItem alloc] initWithTitle:@"趋势" image:scenicImage tag:30];
+    UITabBarItem *moreItem = [[UITabBarItem alloc] initWithTitle:@"设置" image:settingImage tag:40];
+    
+    //对应各个控制器
+    home.tabBarItem = firstItem;
+    air.tabBarItem = recommendItem;
+    scenic.tabBarItem = scenicItem;
+    setting.tabBarItem = moreItem;
+
+  
+    
     return YES;
 }
 
