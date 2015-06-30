@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243B9A7B1B41107100A2BEF7 /* settings (2)_meitu_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 243B9A7A1B41107100A2BEF7 /* settings (2)_meitu_1.png */; };
+		243B9A7D1B41109300A2BEF7 /* font-367_meitu_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 243B9A7C1B41109300A2BEF7 /* font-367_meitu_8.png */; };
+		243B9A7F1B4110A200A2BEF7 /* cloudy7_meitu_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 243B9A7E1B4110A200A2BEF7 /* cloudy7_meitu_7.png */; };
+		243B9A811B4110B900A2BEF7 /* line_meitu_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 243B9A801B4110B900A2BEF7 /* line_meitu_4.png */; };
+		247AF4351B427B1400AD84C7 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 247AF4341B427B1400AD84C7 /* 2.jpg */; };
+		247AF4371B427D7900AD84C7 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 247AF4361B427D7900AD84C7 /* 1.png */; };
 		24B88B561B400E2600425507 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B88B551B400E2600425507 /* main.m */; };
 		24B88B591B400E2600425507 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B88B581B400E2600425507 /* AppDelegate.m */; };
-		24B88B5C1B400E2600425507 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B88B5B1B400E2600425507 /* ViewController.m */; };
+		24B88B5C1B400E2600425507 /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B88B5B1B400E2600425507 /* InitialViewController.m */; };
 		24B88B5F1B400E2600425507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B88B5D1B400E2600425507 /* Main.storyboard */; };
 		24B88B611B400E2600425507 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B88B601B400E2600425507 /* Images.xcassets */; };
 		24B88B641B400E2600425507 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24B88B621B400E2600425507 /* LaunchScreen.xib */; };
@@ -18,18 +24,7 @@
 		24B88B811B4013CE00425507 /* AirMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B88B801B4013CE00425507 /* AirMapViewController.m */; };
 		24B88B841B40140400425507 /* ScenicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B88B831B40140400425507 /* ScenicViewController.m */; };
 		24B88B871B40142000425507 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B88B861B40142000425507 /* SettingViewController.m */; };
-		24B88BA21B4032B800425507 /* icon_menu_hp_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88B9E1B4032B800425507 /* icon_menu_hp_press.png */; };
-		24B88BA31B4032B800425507 /* icon_menu_ihave_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88B9F1B4032B800425507 /* icon_menu_ihave_press.png */; };
-		24B88BA41B4032B800425507 /* icon_menu_profile_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BA01B4032B800425507 /* icon_menu_profile_press.png */; };
-		24B88BA51B4032B800425507 /* icon_menu_x_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BA11B4032B800425507 /* icon_menu_x_press.png */; };
-		24B88BA71B40347D00425507 /* cloudy9_meitu_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BA61B40347D00425507 /* cloudy9_meitu_6.png */; };
-		24B88BA91B4034E600425507 /* cloudy7_meitu_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BA81B4034E600425507 /* cloudy7_meitu_7.png */; };
-		24B88BAB1B40354600425507 /* font-367_meitu_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BAA1B40354600425507 /* font-367_meitu_8.png */; };
-		24B88BAF1B40361100425507 /* gear (1)_meitu_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BAE1B40361100425507 /* gear (1)_meitu_9.png */; };
-		24B88BB11B40367300425507 /* settings (2)_meitu_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BB01B40367300425507 /* settings (2)_meitu_1.png */; };
-		24B88BB31B4037A900425507 /* line_meitu_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BB21B4037A900425507 /* line_meitu_2.jpg */; };
-		24B88BB51B40380000425507 /* line_chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BB41B40380000425507 /* line_chart.png */; };
-		24B88BB71B40384D00425507 /* line_meitu_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B88BB61B40384D00425507 /* line_meitu_4.png */; };
+		5EDECA51A54A2452DC717397 /* libPods-成都天气.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1009A29D29B2F42EF8355F /* libPods-成都天气.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,13 +38,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BBB07BF5D7255EA84EEE975 /* Pods-成都天气.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-成都天气.debug.xcconfig"; path = "Pods/Target Support Files/Pods-成都天气/Pods-成都天气.debug.xcconfig"; sourceTree = "<group>"; };
+		243B9A7A1B41107100A2BEF7 /* settings (2)_meitu_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings (2)_meitu_1.png"; sourceTree = "<group>"; };
+		243B9A7C1B41109300A2BEF7 /* font-367_meitu_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "font-367_meitu_8.png"; sourceTree = "<group>"; };
+		243B9A7E1B4110A200A2BEF7 /* cloudy7_meitu_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudy7_meitu_7.png; sourceTree = "<group>"; };
+		243B9A801B4110B900A2BEF7 /* line_meitu_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line_meitu_4.png; sourceTree = "<group>"; };
+		247AF4341B427B1400AD84C7 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../ICON/2.jpg; sourceTree = "<group>"; };
+		247AF4361B427D7900AD84C7 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = ../../ICON/1.png; sourceTree = "<group>"; };
 		24B88B501B400E2600425507 /* 成都天气.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "成都天气.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B88B541B400E2600425507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24B88B551B400E2600425507 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24B88B571B400E2600425507 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24B88B581B400E2600425507 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		24B88B5A1B400E2600425507 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		24B88B5B1B400E2600425507 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24B88B5A1B400E2600425507 /* InitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
+		24B88B5B1B400E2600425507 /* InitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
 		24B88B5E1B400E2600425507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24B88B601B400E2600425507 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		24B88B631B400E2600425507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -64,18 +66,8 @@
 		24B88B831B40140400425507 /* ScenicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicViewController.m; sourceTree = "<group>"; };
 		24B88B851B40142000425507 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		24B88B861B40142000425507 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
-		24B88B9E1B4032B800425507 /* icon_menu_hp_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_menu_hp_press.png; path = "../../UI_TEST/成都生活展示（素材）/tabBar图标/icon_menu_hp_press.png"; sourceTree = "<group>"; };
-		24B88B9F1B4032B800425507 /* icon_menu_ihave_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_menu_ihave_press.png; path = "../../UI_TEST/成都生活展示（素材）/tabBar图标/icon_menu_ihave_press.png"; sourceTree = "<group>"; };
-		24B88BA01B4032B800425507 /* icon_menu_profile_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_menu_profile_press.png; path = "../../UI_TEST/成都生活展示（素材）/tabBar图标/icon_menu_profile_press.png"; sourceTree = "<group>"; };
-		24B88BA11B4032B800425507 /* icon_menu_x_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_menu_x_press.png; path = "../../UI_TEST/成都生活展示（素材）/tabBar图标/icon_menu_x_press.png"; sourceTree = "<group>"; };
-		24B88BA61B40347D00425507 /* cloudy9_meitu_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloudy9_meitu_6.png; path = ../../cloudy9_meitu_6.png; sourceTree = "<group>"; };
-		24B88BA81B4034E600425507 /* cloudy7_meitu_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloudy7_meitu_7.png; path = ../../cloudy7_meitu_7.png; sourceTree = "<group>"; };
-		24B88BAA1B40354600425507 /* font-367_meitu_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "font-367_meitu_8.png"; path = "../../font-367_meitu_8.png"; sourceTree = "<group>"; };
-		24B88BAE1B40361100425507 /* gear (1)_meitu_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "gear (1)_meitu_9.png"; path = "../../gear (1)_meitu_9.png"; sourceTree = "<group>"; };
-		24B88BB01B40367300425507 /* settings (2)_meitu_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings (2)_meitu_1.png"; path = "../../settings (2)_meitu_1.png"; sourceTree = "<group>"; };
-		24B88BB21B4037A900425507 /* line_meitu_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = line_meitu_2.jpg; path = ../../line_meitu_2.jpg; sourceTree = "<group>"; };
-		24B88BB41B40380000425507 /* line_chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = line_chart.png; path = ../../line_chart.png; sourceTree = "<group>"; };
-		24B88BB61B40384D00425507 /* line_meitu_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = line_meitu_4.png; path = ../../line_meitu_4.png; sourceTree = "<group>"; };
+		54B817D05CD190C771EEC59C /* Pods-成都天气.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-成都天气.release.xcconfig"; path = "Pods/Target Support Files/Pods-成都天气/Pods-成都天气.release.xcconfig"; sourceTree = "<group>"; };
+		EB1009A29D29B2F42EF8355F /* libPods-成都天气.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-成都天气.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EDECA51A54A2452DC717397 /* libPods-成都天气.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,12 +89,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		243B9A961B416C4900A2BEF7 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				24B88B7C1B4013A900425507 /* HomeViewController.h */,
+				24B88B7D1B4013A900425507 /* HomeViewController.m */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		243B9A971B416C4F00A2BEF7 /* 趋势 */ = {
+			isa = PBXGroup;
+			children = (
+				24B88B821B40140400425507 /* ScenicViewController.h */,
+				24B88B831B40140400425507 /* ScenicViewController.m */,
+			);
+			name = "趋势";
+			sourceTree = "<group>";
+		};
+		243B9A981B416C5700A2BEF7 /* 地图 */ = {
+			isa = PBXGroup;
+			children = (
+				24B88B801B4013CE00425507 /* AirMapViewController.m */,
+				24B88B7F1B4013CE00425507 /* AirMapViewController.h */,
+			);
+			name = "地图";
+			sourceTree = "<group>";
+		};
+		243B9A991B416C7F00A2BEF7 /* 设置 */ = {
+			isa = PBXGroup;
+			children = (
+				24B88B851B40142000425507 /* SettingViewController.h */,
+				24B88B861B40142000425507 /* SettingViewController.m */,
+			);
+			name = "设置";
+			sourceTree = "<group>";
+		};
 		24B88B471B400E2600425507 = {
 			isa = PBXGroup;
 			children = (
 				24B88B521B400E2600425507 /* 成都天气 */,
 				24B88B6C1B400E2700425507 /* 成都天气Tests */,
 				24B88B511B400E2600425507 /* Products */,
+				DEAE5C253E48C8A9BD8FAD45 /* Pods */,
+				712A6FD2EC6DB07239B4AFC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,21 +148,19 @@
 		24B88B521B400E2600425507 /* 成都天气 */ = {
 			isa = PBXGroup;
 			children = (
+				247AF4361B427D7900AD84C7 /* 1.png */,
+				247AF4341B427B1400AD84C7 /* 2.jpg */,
 				24B88B931B4029BB00425507 /* ICON */,
 				24B88B571B400E2600425507 /* AppDelegate.h */,
 				24B88B581B400E2600425507 /* AppDelegate.m */,
-				24B88B5A1B400E2600425507 /* ViewController.h */,
-				24B88B5B1B400E2600425507 /* ViewController.m */,
+				24B88B5A1B400E2600425507 /* InitialViewController.h */,
+				24B88B5B1B400E2600425507 /* InitialViewController.m */,
 				24B88B5D1B400E2600425507 /* Main.storyboard */,
 				24B88B601B400E2600425507 /* Images.xcassets */,
-				24B88B7C1B4013A900425507 /* HomeViewController.h */,
-				24B88B7D1B4013A900425507 /* HomeViewController.m */,
-				24B88B7F1B4013CE00425507 /* AirMapViewController.h */,
-				24B88B801B4013CE00425507 /* AirMapViewController.m */,
-				24B88B821B40140400425507 /* ScenicViewController.h */,
-				24B88B831B40140400425507 /* ScenicViewController.m */,
-				24B88B851B40142000425507 /* SettingViewController.h */,
-				24B88B861B40142000425507 /* SettingViewController.m */,
+				243B9A961B416C4900A2BEF7 /* 首页 */,
+				243B9A981B416C5700A2BEF7 /* 地图 */,
+				243B9A971B416C4F00A2BEF7 /* 趋势 */,
+				243B9A991B416C7F00A2BEF7 /* 设置 */,
 				24B88B621B400E2600425507 /* LaunchScreen.xib */,
 				24B88B531B400E2600425507 /* Supporting Files */,
 			);
@@ -167,20 +196,29 @@
 		24B88B931B4029BB00425507 /* ICON */ = {
 			isa = PBXGroup;
 			children = (
-				24B88BA61B40347D00425507 /* cloudy9_meitu_6.png */,
-				24B88BB01B40367300425507 /* settings (2)_meitu_1.png */,
-				24B88BB41B40380000425507 /* line_chart.png */,
-				24B88BB61B40384D00425507 /* line_meitu_4.png */,
-				24B88BAE1B40361100425507 /* gear (1)_meitu_9.png */,
-				24B88BA81B4034E600425507 /* cloudy7_meitu_7.png */,
-				24B88BB21B4037A900425507 /* line_meitu_2.jpg */,
-				24B88BAA1B40354600425507 /* font-367_meitu_8.png */,
-				24B88B9E1B4032B800425507 /* icon_menu_hp_press.png */,
-				24B88B9F1B4032B800425507 /* icon_menu_ihave_press.png */,
-				24B88BA01B4032B800425507 /* icon_menu_profile_press.png */,
-				24B88BA11B4032B800425507 /* icon_menu_x_press.png */,
+				243B9A7A1B41107100A2BEF7 /* settings (2)_meitu_1.png */,
+				243B9A801B4110B900A2BEF7 /* line_meitu_4.png */,
+				243B9A7C1B41109300A2BEF7 /* font-367_meitu_8.png */,
+				243B9A7E1B4110A200A2BEF7 /* cloudy7_meitu_7.png */,
 			);
 			name = ICON;
+			sourceTree = "<group>";
+		};
+		712A6FD2EC6DB07239B4AFC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB1009A29D29B2F42EF8355F /* libPods-成都天气.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEAE5C253E48C8A9BD8FAD45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BBB07BF5D7255EA84EEE975 /* Pods-成都天气.debug.xcconfig */,
+				54B817D05CD190C771EEC59C /* Pods-成都天气.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24B88B731B400E2700425507 /* Build configuration list for PBXNativeTarget "成都天气" */;
 			buildPhases = (
+				DA77B9BE3463CE321A4A8F2C /* Check Pods Manifest.lock */,
 				24B88B4C1B400E2600425507 /* Sources */,
 				24B88B4D1B400E2600425507 /* Frameworks */,
 				24B88B4E1B400E2600425507 /* Resources */,
+				A1EAE432A5C434DEFD9404C5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,21 +303,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24B88BA51B4032B800425507 /* icon_menu_x_press.png in Resources */,
-				24B88BA31B4032B800425507 /* icon_menu_ihave_press.png in Resources */,
-				24B88BA41B4032B800425507 /* icon_menu_profile_press.png in Resources */,
-				24B88BAB1B40354600425507 /* font-367_meitu_8.png in Resources */,
+				247AF4371B427D7900AD84C7 /* 1.png in Resources */,
+				243B9A811B4110B900A2BEF7 /* line_meitu_4.png in Resources */,
+				243B9A7D1B41109300A2BEF7 /* font-367_meitu_8.png in Resources */,
 				24B88B5F1B400E2600425507 /* Main.storyboard in Resources */,
+				243B9A7B1B41107100A2BEF7 /* settings (2)_meitu_1.png in Resources */,
 				24B88B641B400E2600425507 /* LaunchScreen.xib in Resources */,
-				24B88BB71B40384D00425507 /* line_meitu_4.png in Resources */,
-				24B88BAF1B40361100425507 /* gear (1)_meitu_9.png in Resources */,
 				24B88B611B400E2600425507 /* Images.xcassets in Resources */,
-				24B88BB51B40380000425507 /* line_chart.png in Resources */,
-				24B88BA21B4032B800425507 /* icon_menu_hp_press.png in Resources */,
-				24B88BA71B40347D00425507 /* cloudy9_meitu_6.png in Resources */,
-				24B88BB11B40367300425507 /* settings (2)_meitu_1.png in Resources */,
-				24B88BB31B4037A900425507 /* line_meitu_2.jpg in Resources */,
-				24B88BA91B4034E600425507 /* cloudy7_meitu_7.png in Resources */,
+				247AF4351B427B1400AD84C7 /* 2.jpg in Resources */,
+				243B9A7F1B4110A200A2BEF7 /* cloudy7_meitu_7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,12 +324,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A1EAE432A5C434DEFD9404C5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-成都天气/Pods-成都天气-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA77B9BE3463CE321A4A8F2C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24B88B4C1B400E2600425507 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24B88B5C1B400E2600425507 /* ViewController.m in Sources */,
+				24B88B5C1B400E2600425507 /* InitialViewController.m in Sources */,
 				24B88B591B400E2600425507 /* AppDelegate.m in Sources */,
 				24B88B561B400E2600425507 /* main.m in Sources */,
 				24B88B871B40142000425507 /* SettingViewController.m in Sources */,
@@ -427,6 +494,7 @@
 		};
 		24B88B741B400E2700425507 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BBB07BF5D7255EA84EEE975 /* Pods-成都天气.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "成都天气/Info.plist";
@@ -437,6 +505,7 @@
 		};
 		24B88B751B400E2700425507 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54B817D05CD190C771EEC59C /* Pods-成都天气.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "成都天气/Info.plist";
@@ -498,6 +567,7 @@
 				24B88B751B400E2700425507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24B88B761B400E2700425507 /* Build configuration list for PBXNativeTarget "成都天气Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +576,7 @@
 				24B88B781B400E2700425507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

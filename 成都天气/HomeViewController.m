@@ -14,24 +14,32 @@
 
 @implementation HomeViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-}
-
 - (id)initWithCoder:(NSCoder *)aDecoder
 {
     //设置tabBarItem图标
     if (self = [super initWithCoder:aDecoder]) {
-        UIImage *homeIcon = [UIImage imageNamed:@"home2_meitu_4.jpg"];
+       
+       
         
-        HomeViewController *home = [[HomeViewController alloc]init];
-        UITabBarItem *homepageBarItem = [[UITabBarItem alloc]initWithTitle:@"" image:homeIcon tag:10];
-        home.tabBarItem = homepageBarItem;
     }
     return self;
 }
 
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    UIBarButtonItem *settingItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"seting_green"] style:UIBarButtonItemStylePlain target:self action:@selector(gotoSettingViewController)];
+    
+    
+    settingItem.tintColor = [UIColor redColor];
+    
+    
+    self.navigationItem.rightBarButtonItem = settingItem;
+    
+    
+    
+}
 
 
 /*

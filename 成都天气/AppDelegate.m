@@ -7,12 +7,12 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "InitialViewController.h"
+
 #import "HomeViewController.h"
 #import "AirMapViewController.h"
 #import "ScenicViewController.h"
 #import "SettingViewController.h"
-
 @interface AppDelegate ()
 
 @end
@@ -26,16 +26,19 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
+    //UITabBarController *tabBarController = [[UITabBarController alloc]init];
+    //tabBarController.viewControllers =@[naviFirst,naviSecond,naviThird,naviFouth];
     
     
     HomeViewController *home = [[HomeViewController alloc]init];
     AirMapViewController *air = [[AirMapViewController alloc]init];
-    
     ScenicViewController *scenic = [[ScenicViewController alloc]init];
     SettingViewController *setting = [[SettingViewController alloc]init];
     
     UINavigationController *naviFirst = [[UINavigationController alloc]initWithRootViewController:home];
     naviFirst.navigationBar.barTintColor = [UIColor colorWithRed:0.302 green:0.628 blue:0.212 alpha:1.000];
+    UIBarButtonItem *addItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"add_green"] style:UIBarButtonItemStyleBordered target:self action:@selector(gotoAddSitesViewController)];
+    naviFirst.navigationItem.leftBarButtonItem = addItem;
     
     UINavigationController *naviSecond =[[UINavigationController alloc]initWithRootViewController:air];
     naviSecond.navigationBar.barTintColor = [UIColor colorWithRed:0.302 green:0.628 blue:0.212 alpha:1.000];
@@ -53,8 +56,8 @@
     
     //ViewController *view = [[ViewController alloc]init];
     self.window.rootViewController = tabBarController;
-    
-    
+//    
+//    
     //添加图片
     UIImage *firstImage = [UIImage imageNamed:@"cloudy7_meitu_7.png"];
     UIImage *airImage = [UIImage imageNamed:@"font-367_meitu_8.png"];
@@ -79,8 +82,8 @@
     air.tabBarItem = recommendItem;
     scenic.tabBarItem = scenicItem;
     setting.tabBarItem = moreItem;
-
-  
+    
+    
     
     return YES;
 }

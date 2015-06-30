@@ -23,7 +23,7 @@
 {
     if (self = [super initWithCoder:aDecoder]) {
         ScenicViewController *scenic = [[ScenicViewController alloc]init];
-        UIImage *scenicIcon = [UIImage imageNamed:@"cloud_1.png"];
+        UIImage *scenicIcon = [UIImage imageNamed:@"line_meitu_4.png"];
         UITabBarItem *scenicItem = [[UITabBarItem alloc]initWithTitle:@"" image:scenicIcon tag:14];
         scenic.tabBarItem = scenicItem;
     }

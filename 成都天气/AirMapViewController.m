@@ -24,7 +24,7 @@
     if (self = [super initWithCoder:aDecoder]) {
         
         AirMapViewController *air = [[AirMapViewController alloc]init];
-        UIImage *airMapIcon = [UIImage imageNamed:@"marker_meitu_3.jpg"];
+        UIImage *airMapIcon = [UIImage imageNamed:@"font-367_meitu_8.png"];
         UITabBarItem * airMapItem = [[UITabBarItem alloc]initWithTitle:@"" image:airMapIcon tag:12];
         air.tabBarItem = airMapItem;
     }
